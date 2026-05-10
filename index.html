@@ -76,19 +76,6 @@ nav.scrolled{background:rgba(10,22,40,0.97);border-color:rgba(201,168,76,0.18);}
 .btn-ghost{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(201,168,76,0.35);color:var(--g1);font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:16px 32px;border-radius:2px;text-decoration:none;cursor:none;transition:all .25s;}
 .btn-ghost:hover{border-color:var(--g1);background:rgba(201,168,76,0.05);}
 
-/* DEMO CLASS BANNER */
-.demo-banner{background:linear-gradient(135deg, rgba(201,168,76,0.15) 0%, rgba(201,168,76,0.08) 100%);border:1.5px solid rgba(201,168,76,0.3);border-radius:4px;padding:32px 28px;margin-bottom:48px;animation:fadeUp .7s .28s ease both;position:relative;overflow:hidden;}
-.demo-banner::before{content:'';position:absolute;top:0;right:0;width:200px;height:200px;background:radial-gradient(circle,rgba(201,168,76,0.1) 0%,transparent 70%);pointer-events:none;}
-.demo-content{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,1fr);gap:24px;}
-.demo-item{display:flex;flex-direction:column;}
-.demo-label{font-family:var(--mono);font-size:10px;color:rgba(201,168,76,0.7);letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;font-weight:600;}
-.demo-value{font-family:var(--serif);font-size:clamp(18px,2.5vw,24px);font-weight:700;color:var(--g1);line-height:1.2;margin-bottom:4px;}
-.demo-subtext{font-size:13px;color:var(--light);line-height:1.5;}
-.demo-cta{grid-column:1/-1;margin-top:8px;}
-.demo-cta a{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.2);color:var(--g1);border:1px solid rgba(201,168,76,0.4);padding:12px 24px;border-radius:2px;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;transition:all .25s;}
-.demo-cta a:hover{background:var(--g1);color:var(--n1);border-color:var(--g1);}
-
-
 /* TRACK CARDS (hero) */
 .track-row{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(201,168,76,0.08);animation:fadeUp .7s .32s ease both;}
 .track-hero-card{background:var(--n1);padding:28px 26px;border-top:2px solid transparent;transition:all .2s;cursor:none;}
@@ -398,43 +385,7 @@ footer{background:rgb(25, 47, 88);padding:36px 5%;display:flex;align-items:cente
     <a href="#tracks" class="btn-primary"><span>Choose your track</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg></a>
     <a href="#curriculum" class="btn-ghost">View curriculum</a>
   </div>
-  <div class="demo-banner">
-    <div class="demo-content">
-      <div class="demo-item">
-        <div class="demo-label">Demo Class</div>
-        <div class="demo-value">24th April</div>
-        <div class="demo-subtext">Join our free introductory session</div>
-      </div>
-      <div class="demo-item">
-        <div class="demo-label">Demo Time</div>
-        <div class="demo-value">7:15 PM</div>
-        <div class="demo-subtext">to 8:30 PM IST</div>
-      </div>
-      <div class="demo-item">
-        <div class="demo-label">Batch Starts</div>
-        <div class="demo-value">9th May</div>
-        <div class="demo-subtext">Weekend classes only</div>
-      </div>
-      <div class="demo-item">
-        <div class="demo-label">Class Timing</div>
-        <div class="demo-value">11 AM – 1 PM</div>
-        <div class="demo-subtext">Every Saturday &amp; Sunday</div>
-      </div>
-      <div class="demo-item">
-        <div class="demo-label">Course Fee</div>
-        <div class="demo-value">₹39,999</div>
-        <div class="demo-subtext">One-time investment</div>
-      </div>
-      <div class="demo-item">
-        <div class="demo-label">Duration</div>
-        <div class="demo-value">3 Months</div>
-        <div class="demo-subtext">Weekend schedule</div>
-      </div>
-      <div class="demo-cta">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeC4BddyrWHAtONpsqm4pMigmCH6NNhlwLG7fnBjeFJiLW2Ig/viewform?usp=publish-editor">Register for Demo Class →</a>
-      </div>
-    </div>
-  </div>
+  
   <div class="track-row">
     <div class="track-hero-card">
       <div class="thc-label">Track 01 &nbsp;&middot;&nbsp; Fresher</div>
